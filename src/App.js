@@ -13,8 +13,7 @@ let scFrame =
 let twFrame =
   "https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fjimmyspacev%2Fstatus%2F1224812067200303112";
 
-let ytFrame = 
-  "https://www.youtube.com/embed/sroQRLtiyVU"
+let ytFrame = "https://www.youtube.com/embed/sroQRLtiyVU";
 
 class App extends React.Component {
   state = {
@@ -29,7 +28,7 @@ class App extends React.Component {
     console.log(this.currentFrame());
     return (
       <div
-        autoFocus={true}
+        autofocus="true"
         tabIndex="1"
         className="AppX"
         onKeyDown={this.keypressApp}
@@ -40,6 +39,11 @@ class App extends React.Component {
         <div id="frameContainer">
           <div id="iFrame">
             <iframe
+              allowfullscreen="allowfullscreen"
+              mozallowfullscreen="mozallowfullscreen"
+              msallowfullscreen="msallowfullscreen"
+              oallowfullscreen="oallowfullscreen"
+              webkitallowfullscreen="webkitallowfullscreen"
               width="100%"
               height="100%"
               scrolling="yes"
