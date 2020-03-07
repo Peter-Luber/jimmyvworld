@@ -47,7 +47,7 @@ a:focus {
 #header {
   font-family: "Eurostile Extended Black";
   font-size: 50px;
-  color: rgb(102, 102, 102);
+  color: rgb(78, 78, 78);
   filter: blur(0px);
   transition: filter 3.33s;
 }
