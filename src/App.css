@@ -12,6 +12,8 @@
     url("./fonts/EurostileExtendedBlack.ttf") format("truetype");
 }
 
+@import url("https://fonts.googleapis.com/css?family=Michroma&display=swap");
+
 a {
   color: rgb(37, 37, 37);
   text-decoration: none;
@@ -30,7 +32,7 @@ a:focus {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  font-family: "Eurostile Extended";
+  font-family: "Eurostile Extended", "Michroma";
   background-color: rgb(255, 174, 0);
   margin: auto;
   cursor: crosshair;
@@ -45,7 +47,7 @@ a:focus {
 }
 
 #header {
-  font-family: "Eurostile Extended Black";
+  font-family: "Eurostile Extended Black", "Michroma";
   font-size: 50px;
   color: rgb(78, 78, 78);
   filter: blur(0px);
